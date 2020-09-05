@@ -1,0 +1,16 @@
+[user]
+        email = kyamau.cs@gmail.com
+        name = kyamau
+
+[color]
+        ui = true
+
+[core]
+        editor=vim
+
+[merge]
+        ff=false
+
+[alias]
+        graph = log --graph --date=short --decorate=short --pretty='[%ad]%C(auto) %h %Cgreen%an%Creset : %s %C(auto)%d'
+
