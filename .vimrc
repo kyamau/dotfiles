@@ -12,6 +12,10 @@ set shiftwidth=4
 set expandtab
 set autoindent
 
+" Search
+set ignorecase
+set smartcase
+
 " Key bindings
 set backspace=indent,eol,start
 
