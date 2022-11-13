@@ -14,3 +14,5 @@
 [alias]
         graph = log --graph --date=short --decorate=short --pretty='[%ad]%C(auto) %h %Cgreen%an%Creset : %s %C(auto)%d'
 
+[init]
+	defaultBranch = main
