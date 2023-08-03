@@ -1,18 +1,22 @@
 [user]
-        email = kyamau.cs@gmail.com
-        name = kyamau
+    email = kyamau.cs@gmail.com
+    name = kyamau
 
 [color]
-        ui = true
+    ui = true
 
 [core]
-        editor=vim
+    editor=vim
 
 [merge]
-        ff=false
+    ff=false
 
 [alias]
-        graph = log --graph --date=short --decorate=short --pretty='[%ad]%C(auto) %h %Cgreen%an%Creset : %s %C(auto)%d'
+    graph = log --graph --date=short --decorate=short --pretty='[%ad]%C(auto) %h %Cgreen%an%Creset : %s %C(auto)%d'
 
 [init]
 	defaultBranch = main
+
+[url "git@gitlab.com:"]
+    insteadOf = https://gitlab.com/
+
